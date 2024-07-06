@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">Game Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="language-switch">
+        <button id="en" onclick="setLanguage('en')">English</button>
+        <button id="ja" onclick="setLanguage('ja')">日本語</button>
+        <button id="vi" onclick="setLanguage('vi')">Tiếng Việt</button>
+        <button id="cn" onclick="setLanguage('cn')">中国话</button>
+      </div>
+    </header>
+    <main>
+      <h1 id="title">Welcome to Game Hub</h1>
+      <div class="game-buttons">
+        <a
+          href="https://tachibana11111.github.io/Tetris"
+          class="game-link"
+          id="tetris-button"
+          >Play Tetris</a
+        >
+        <a
+          href="https://tachibana11111.github.io/TicTacToeAdvanced"
+          class="game-link"
+          id="tic-tac-toe-button"
+          >Play Tic Tac Toe</a
+        >
+        <button class="game-link" id="exit-button" onclick="exitPage()">
+          Exit
+        </button>
+      </div>
+    </main>
+    <footer>
+      <p id="footer-text">©2024 Tachibana11111</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

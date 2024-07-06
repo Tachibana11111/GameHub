@@ -1,0 +1,68 @@
+body {
+  background: url("img/66263392_p0.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+header {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.language-switch button {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.language-switch button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+main {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.game-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.game-link {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 30px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s;
+  border-radius: 5px;
+}
+
+.game-link:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
