@@ -39,7 +39,8 @@ function setLanguage(lang) {
   document.getElementById("exit-button").innerText = translations[lang].exit;
 }
 
-function exitPage() {
-    window.close();
+exit-button.addEventListener("click", () => {
+          window.close(); 
+           });
 }
 
