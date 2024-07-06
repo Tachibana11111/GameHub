@@ -1,6 +1,7 @@
 # Game Hub 
 
 Chào mừng bạn đến với Game Hub, một trang web đẹp mắt theo chủ đề Nhật Bản, nơi bạn có thể truy cập và chơi các trò chơi yêu thích của mình. Trang web này bao gồm các liên kết đến hai trò chơi: Tetris và Tic Tac Toe Advanced.
+- Chơi tại đây: https://tachibana11111.github.io/GameHub
 
 ## Mô tả
 
