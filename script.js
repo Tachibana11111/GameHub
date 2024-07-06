@@ -41,6 +41,10 @@ function setLanguage(lang) {
     translations[lang].exit;
 }
 
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});
+
 function exitPage() {
 window.close();
 }
