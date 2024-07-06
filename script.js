@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+
 const translations = {
   en: {
     pageTitle: "Game Hub",
@@ -40,9 +40,6 @@ function setLanguage(lang) {
   document.getElementById("exit-button").innerText = translations[lang].exit;
 }
 
-exit-button.addEventListener("click", () => {
-window.close(); 
-});
-      });
+
 
 
