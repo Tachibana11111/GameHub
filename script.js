@@ -46,7 +46,7 @@ document.addEventListener('contextmenu', function(event) {
 });
 
 function exitPage() {
-window.close();
+window.location.href = 'https://google.com';
 }
 
 
