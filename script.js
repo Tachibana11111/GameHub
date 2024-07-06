@@ -40,5 +40,6 @@ function setLanguage(lang) {
 }
 
 function exitPage() {
-  window.close();
+    window.location.href = 'https://tachibana11111.github.io/GameHub/';
 }
+
