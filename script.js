@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
 const translations = {
   en: {
     pageTitle: "Game Hub",
@@ -40,7 +41,8 @@ function setLanguage(lang) {
 }
 
 exit-button.addEventListener("click", () => {
-          window.close(); 
-           });
-}
+window.close(); 
+});
+      });
+
 
