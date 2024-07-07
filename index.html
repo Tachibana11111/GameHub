@@ -45,5 +45,18 @@
       <p id="footer-text">©2024 Tachibana11111</p>
     </footer>
     <script src="script.js"></script>
+    <script type="text/javascript" src="fallingleaf.js"></script>
+    <script>
+      var animateButton = function (e) {
+        e.preventDefault;
+        //reset animation
+        e.target.classList.remove("animate");
+
+        e.target.classList.add("animate");
+        setTimeout(function () {
+          e.target.classList.remove("animate");
+        }, 700);
+      };
+    </script>
   </body>
 </html>
