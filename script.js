@@ -1,4 +1,3 @@
-
 const translations = {
   en: {
     pageTitle: "Game Hub",
@@ -6,6 +5,7 @@ const translations = {
     tetris: "Play Tetris",
     ticTacToe: "Play Tic Tac Toe",
     breakBricks: "Play BreakBricks (Beta)",
+    cautionTitle: "Play on desktop browser for the best experience",
     exit: "Exit",
   },
   ja: {
@@ -14,6 +14,7 @@ const translations = {
     tetris: "テトリスをプレイ",
     ticTacToe: "三目並べをプレイ",
     breakBricks: "ブレイクレンガをプレイ(ベータ版)",
+    cautionTitle: "デスクトップブラウザでプレイすると最高の体験ができる",
     exit: "出口",
   },
   vi: {
@@ -22,6 +23,7 @@ const translations = {
     tetris: "Chơi Tetris",
     ticTacToe: "Chơi Tic Tac Toe",
     breakBricks: "Chơi game Phá Gạch (Beta)",
+    cautionTitle: "Chơi trên trình duyệt máy tính để có trải nghiệm tốt nhất",
     exit: "Thoát",
   },
   cn: {
@@ -30,6 +32,7 @@ const translations = {
     tetris: "玩俄罗斯方块",
     ticTacToe: "玩井字游戏",
     breakBricks: "玩打砖块游戏（测试版）",
+    cautionTitle: "在桌面浏览器上玩以获得最佳体验",
     exit: "出口",
   },
 };
@@ -43,18 +46,15 @@ function setLanguage(lang) {
     translations[lang].ticTacToe;
   document.getElementById("break-bricks-button").innerText =
     translations[lang].breakBricks;
-  document.getElementById("exitButton").innerText =
-    translations[lang].exit;
+  document.getElementById("cautionTitle").innerText =
+    translations[lang].cautionTitle;
+  document.getElementById("exitButton").innerText = translations[lang].exit;
 }
 
-document.addEventListener('contextmenu', function(event) {
-    event.preventDefault();
+document.addEventListener("contextmenu", function (event) {
+  event.preventDefault();
 });
 
 function exitPage() {
-window.location.href = 'https://google.com';
+  window.location.href = "https://google.com";
 }
-
-
-
-
