@@ -55,6 +55,12 @@ main {
   margin-top: 20px;
 }
 
+  #cautionTitle {
+  margin-top: 1px; /* Giảm khoảng cách phía trên */
+  margin-bottom: 1px; /* Giảm khoảng cách phía dưới */
+  text-align: center; /* Căn giữa văn bản */
+}
+
 .game-link {
   background: rgba(0, 0, 0, 0.5);
   padding: 15px 30px;
