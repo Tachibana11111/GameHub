@@ -20,9 +20,9 @@ const translations = {
   vi: {
     pageTitle: "Game Hub",
     title: "Chào mừng đến với Game Hub",
-    tetris: "Chơi Tetris",
-    ticTacToe: "Chơi Tic Tac Toe",
-    breakBricks: "Chơi game Phá Gạch (Beta)",
+    tetris: "Chơi Xếp Hình",
+    ticTacToe: "Chơi Cờ Caro",
+    breakBricks: "Chơi Phá Gạch (Beta)",
     cautionTitle: "Chơi trên trình duyệt máy tính để có trải nghiệm tốt nhất",
     exit: "Thoát",
   },
