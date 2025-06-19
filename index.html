@@ -4,49 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title id="page-title">Game Hub</title>
-    <link rel="icon" type="image/png" href="console.png">
+    <link rel="icon" type="image/png" href="console.png" />
 
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <div class="language-switch">
-        <button id="en" onclick="setLanguage('en')">English</button>
-        <button id="ja" onclick="setLanguage('ja')">日本語</button>
-        <button id="vi" onclick="setLanguage('vi')">Tiếng Việt</button>
-        <button id="cn" onclick="setLanguage('cn')">中国话</button>
+        <button id="en">English</button>
+        <button id="ja">日本語</button>
+        <button id="vi">Tiếng Việt</button>
+        <button id="cn">中国话</button>
       </div>
     </header>
     <main>
       <h1 id="title">Welcome to Game Hub</h1>
-      <div class="game-buttons">
-        <a
-          href="https://tachibana11111.github.io/Tetris"
-          class="game-link"
-          id="tetris-button"
-          >Play Tetris</a
-        >
-        <a
-          href="https://tachibana11111.github.io/TicTacToeAdvanced"
-          class="game-link"
-          id="tic-tac-toe-button"
-          >Play Tic Tac Toe</a
-        >
-        <a
-          href="https://tachibana11111.github.io/BreakBricks"
-          class="game-link"
-          id="break-bricks-button"
-          >Play BreakBricks (Beta)</a
-        >
-        <p id="cautionTitle">Play on desktop browser for the best experience</p>
-        <button class="game-link" id="exitButton" onclick="exitPage()">Exit</button>
+
+      <div class="game-selection">
+        <div class="game-buttons">
+          <button
+            class="game-select-button"
+            data-game-url="https://tachibana11111.github.io/Tetris"
+            id="tetris-button"
+          >
+            Play Tetris
+          </button>
+          <button
+            class="game-select-button"
+            data-game-url="https://tachibana11111.github.io/TicTacToeAdvanced"
+            id="tic-tac-toe-button"
+          >
+            Play Tic Tac Toe
+          </button>
+          <button
+            class="game-select-button"
+            data-game-url="https://tachibana11111.github.io/BreakBricks"
+            id="break-bricks-button"
+          >
+            Play BreakBricks (Beta)
+          </button>
+          <p id="cautionTitle">Play on desktop browser for the best experience</p>
+          <button class="game-link" id="exitButton">Exit</button>
+        </div>
+      </div>
+
+      <div class="game-display" style="display: none">
+        <iframe id="gameFrame" src="" frameborder="0" allowfullscreen></iframe>
+        <button id="closeGameButton">Close Game</button>
+        <button id="fullscreenButton">Full Screen</button>
       </div>
     </main>
     <footer>
-      <p id="footer-text">©2024 Tachibana11111</p>
+      <p id="footer-text">©2025 Tachibana11111</p>
     </footer>
     <script src="script.js"></script>
-    <script type="text/javascript" src="fallingleaf.js"></script>
+    <script src="fallingleaf.js"></script>
     <script>
       var animateButton = function (e) {
         e.preventDefault;
