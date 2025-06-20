@@ -173,6 +173,22 @@ main {
     margin: 5px; 
 }
 
+.github-link {
+    position: fixed; 
+    top: 50%; 
+    right: 20px;
+    transform: translateY(-50%); 
+    font-size: 3em;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease; 
+    z-index: 1000; 
+}
+
+.github-link:hover {
+    color: #007bff; 
+    transform: translateY(-50%) scale(1.1);
+}
+
 footer {
   position: absolute;
   bottom: 10px;
