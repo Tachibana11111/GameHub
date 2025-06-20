@@ -173,7 +173,7 @@ main {
     margin: 5px; 
 }
 
-github-link {
+.github-link {
     position: fixed;
     bottom: 20px; 
     left: 20px; 
