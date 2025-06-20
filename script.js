@@ -18,7 +18,7 @@ const translations = {
     ticTacToe: "三目並べをプレイ",
     breakBricks: "ブレイクレンガをプレイ(ベータ版)",
     cautionTitle: "デスクトップブラウザでプレイすると最高の体験ができる",
-    exit: "終了",
+    exit: "出口",
     closeGame: "ゲームを閉じる",
     fullscreen: "全画面表示",
     
