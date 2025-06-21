@@ -1,4 +1,4 @@
-[English](README.en.md) | [日本語](README.ja.md) | **中国话** | [Tiếng Việt](README.md)
+[English](README.en.md) | [日本語](README.ja.md) | **汉语** | [Tiếng Việt](README.md)
 
 # 游戏中心
 
