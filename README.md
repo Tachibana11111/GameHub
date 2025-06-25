@@ -2,7 +2,7 @@
 
 # Game Hub
 
-Chào mừng bạn đến với **Game Hub**, một trung tâm giải trí trực tuyến được thiết kế với phong cách Nhật Bản tinh tế. Tại đây, bạn có thể dễ dàng truy cập và tận hưởng các trò chơi yêu thích ngay trong trình duyệt của mình.
+Chào mừng bạn đến với **Game Hub**, một trung tâm giải trí trực tuyến. Tại đây, bạn có thể dễ dàng truy cập và tận hưởng các trò chơi yêu thích ngay trong trình duyệt của mình.
 
 ---
 
