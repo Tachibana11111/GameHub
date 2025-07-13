@@ -1,4 +1,4 @@
-[English](README.en.md) | [日本語](README.ja.md) | [汉语](README.cn.md) | **Tiếng Việt**
+[English](README.en.md) | [日本語](README.ja.md) | [中文](README.cn.md) | **Tiếng Việt**
 
 # Game Hub
 
