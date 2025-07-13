@@ -1,4 +1,4 @@
-[English](README.en.md) | **日本語** | [汉语](README.cn.md) | [Tiếng Việt](README.md)
+[English](README.en.md) | **日本語** | [中文](README.cn.md) | [Tiếng Việt](README.md)
 
 # ゲームハブ
 
